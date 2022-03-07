@@ -1,0 +1,15 @@
+{
+    "defaultCommandTimeout":10000,
+    
+    "env": 
+    {
+       "URL":"https://www.amazon.in/"
+    },
+    "retries": 
+    {
+    
+        "runMode": 1
+    },
+    "projectId": "imbysd",
+    "recordkey":"npx cypress run --record --key 64ad253e-721c-4c3a-8e32-b5844b69fa99"
+}

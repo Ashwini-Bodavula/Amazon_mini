@@ -1,0 +1,20 @@
+{
+  "name": "amazoncypress",
+  "version": "1.0.0",
+  "description": "Amazon wensite",
+  "main": "index.js",
+  "scripts": {
+    "test": ".//node_modules//.bin//.cypress run",
+    "headed": "npm run test -- --headed",
+    "parallel": "npm run test -- --parallel",
+    "chrome": "npm run test -- --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "cypress": "^9.5.1"
+  }
+}
