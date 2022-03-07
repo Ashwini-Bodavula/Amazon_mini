@@ -14,7 +14,7 @@ describe('Amazon first case',function(){
         //click signin
         
         Amazon_Homepage.getSignin().click()
-        Amazon_Homepage.getusername().type(tCypress.env('emailid'))
+        Amazon_Homepage.getusername().type(Cypress.env('emailid'))
         Amazon_Homepage.getcontinue().click()
         Amazon_Homepage.getpassword().type(Cypress.env('Password'),{log:false})
         Amazon_Homepage.getsubmitsigin().click()
